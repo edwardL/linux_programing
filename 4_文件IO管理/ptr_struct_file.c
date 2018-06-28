@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
 		perror("open2");
 		exit(EXIT_FAILURE);
 	}
-	setvbuf(fp_src,buffer1,_IOLBP,128); // 
+	setvbuf(fp_src,buffer1,_IOLBF,128); // 
 
 	do
 	{
